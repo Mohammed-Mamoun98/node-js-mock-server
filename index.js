@@ -7,6 +7,6 @@ app.use(express.json());
 app.use(corsMiddleware);
 app.use("/", dummyRoute);
 
-app.listen(5000, () => {
+app.listen(3000, () => {
   console.log("server is up!");
 });
